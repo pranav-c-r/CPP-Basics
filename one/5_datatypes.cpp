@@ -18,5 +18,9 @@ int main(){
 
     cout << x << " " << y << " " << z;
 
+    // when to use int, long, long long etc:
+    // generally use int -> -10^9 to 10^9
+    // long -> -10^12 to 10^12
+    // long long -> -10^18 to 10^18
     return 0;
 }
