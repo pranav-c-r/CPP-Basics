@@ -16,6 +16,8 @@ void explainMultiSet(){
     // for erasing only a single 1 :
     ms.erase(ms.find(1));
 
+    // basically if you are erasing element, all occurences get erased
+    // but if you are erasing address (iterator) only that one occurence will be.
     // begin and end position specified [begin,end)
     ms.erase(ms.find(1),ms.find(1)+2);
 
